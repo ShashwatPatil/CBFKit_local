@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a51b992-d896-4426-a21e-48fa714ae444" name="Changes" comment="commit" />
+    <list default="true" id="4a51b992-d896-4426-a21e-48fa714ae444" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbfkit/tutorials/cart_pole.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbfkit/tutorials/cart_pole.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbfkit/tutorials/simulate_new_control_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbfkit/tutorials/simulate_new_control_system.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,23 +54,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in test_model_accuracy.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_unicycle_montecarlo.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cart_pole.executor&quot;: &quot;Run&quot;,
-    &quot;Python.controller.executor&quot;: &quot;Run&quot;,
-    &quot;Python.estimator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.path.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plant.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simulate_new_control_system.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vanilla_cbf_start_to_goal_main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/shashwatgpatil/CBFKit_local&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in test_model_accuracy.py.executor": "Run",
+    "Python tests.Python tests in test_unicycle_montecarlo.py.executor": "Run",
+    "Python.cart_pole.executor": "Run",
+    "Python.controller.executor": "Run",
+    "Python.estimator.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.path.executor": "Run",
+    "Python.plant.executor": "Run",
+    "Python.simulate_new_control_system.executor": "Run",
+    "Python.vanilla_cbf_start_to_goal_main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/shashwatgpatil/CBFKit_local",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

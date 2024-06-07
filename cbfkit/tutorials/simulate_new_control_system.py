@@ -43,6 +43,7 @@ import cbfkit.simulation.simulator as sim
 # Access to CBF-CLF-QP control law
 from cbfkit.controllers.model_based.cbf_clf_controllers.vanilla_cbf_clf_qp_control_laws import (
     vanilla_cbf_clf_qp_controller,
+
 )
 
 # Necessary housekeeping for using multiple CBFs/CLFs
