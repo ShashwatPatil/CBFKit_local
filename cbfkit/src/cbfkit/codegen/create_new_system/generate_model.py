@@ -952,14 +952,14 @@ def generate_model(
     # Controller
     CONTROLLER_NAME = "controller_1"
     TIMER_INTERVAL = 0.1
-    CONTROLLER_PARAMS = {{control_args}}
+    CONTROLLER_PARAMS = {control_args}
 
     # Estimator
     ESTIMATOR_NAME = "naive"
 
     # Plant
     PLANT_NAME = "plant"
-    PLANT_PARAMS = {{dynamics_args}}
+    PLANT_PARAMS = {dynamics_args}
     INTEGRATOR_NAME = "forward_euler"
     DT = 0.01
 
