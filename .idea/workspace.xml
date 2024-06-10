@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a51b992-d896-4426-a21e-48fa714ae444" name="Changes" comment="modified the genertae model  to fix params in config.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbfkit/src/cbfkit/codegen/create_new_system/generate_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbfkit/src/cbfkit/codegen/create_new_system/generate_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbfkit/tutorials/SGP_test/cart_pole/ros2/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbfkit/tutorials/SGP_test/cart_pole/ros2/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718016697061</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="modified the genertae model  to fix params in config.py">
+      <option name="closed" value="true" />
+      <created>1718016807963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718016807963</updated>
+    </task>
+    <task id="LOCAL-00009" summary="modified the genertae model  to fix params in config.py">
+      <option name="closed" value="true" />
+      <created>1718016818920</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718016818920</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
