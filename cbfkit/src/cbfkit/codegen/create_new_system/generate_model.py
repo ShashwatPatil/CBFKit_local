@@ -33,6 +33,10 @@ DELIMITER = "/" if op_sys == "Darwin" or op_sys == "Linux" else "\\"
 INIT_CONTENTS = ""
 JAX_EXPRESSIONS = ["exp", "pi", "cos", "sin", "tan"]
 
+def transform_key(old_key):
+    # Remove spaces and type annotations
+    new_key = old_key.replace(" ", "").replace(":float", "")
+    return new_key
 
 def create_folder(directory: str, folder_name: str) -> None:
     """Creates a new folder called 'folder_name' at the location specified by 'directory'.
@@ -124,6 +128,8 @@ def generate_model(
     else:
         raise TypeError("drift_dynamics is not type str or list!")
 
+    dynamics = {transform_key(k): v for k, v in params["dynamics"].items()}
+    controller = {transform_key(k): v for k, v in params["controller"].items()}
     # Create model root folder
     model_folder = directory + DELIMITER + model_name
     if not os.path.exists(model_folder):
@@ -952,14 +958,14 @@ def generate_model(
     # Controller
     CONTROLLER_NAME = "controller_1"
     TIMER_INTERVAL = 0.1
-    CONTROLLER_PARAMS = {params["controller"]}
+    CONTROLLER_PARAMS = {controller}
 
     # Estimator
     ESTIMATOR_NAME = "naive"
 
     # Plant
     PLANT_NAME = "plant"
-    PLANT_PARAMS = {params["dynamics"]}
+    PLANT_PARAMS = {dynamics}
     INTEGRATOR_NAME = "forward_euler"
     DT = 0.01
 
