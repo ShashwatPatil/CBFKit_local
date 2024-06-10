@@ -642,7 +642,7 @@ def generate_model(
     import jax.numpy as jnp
     import config
 
-    class VanDerPolOscillatorController(Node):
+    class {model_name}Controller(Node):
 
         def __init__(self):
             super().__init__("{model_name}_controller")
@@ -690,7 +690,7 @@ def generate_model(
 
     def main(args=None):
         rclpy.init(args=args)
-        node = VanDerPolOscillatorController()
+        node = {model_name}Controller()
         rclpy.spin(node)
         node.destroy_node()
         rclpy.shutdown()
@@ -722,7 +722,7 @@ def generate_model(
     import jax.numpy as jnp
     import config  # Import configurations
 
-    class VanDerPolOscillatorSensor(Node):
+    class {model_name}Sensor(Node):
 
         def __init__(self):
             super().__init__("{model_name}_sensor")
@@ -753,7 +753,7 @@ def generate_model(
 
     def main(args=None):
         rclpy.init(args=args)
-        node = VanDerPolOscillatorSensor()
+        node = {model_name}Sensor()
         rclpy.spin(node)
         node.destroy_node()
         rclpy.shutdown()
@@ -784,7 +784,7 @@ def generate_model(
     import jax.numpy as jnp
     import config
 
-    class VanDerPolOscillatorEstimator(Node):
+    class {model_name}Estimator(Node):
 
         def __init__(self):
             super().__init__("{model_name}_estimator")
@@ -829,7 +829,7 @@ def generate_model(
 
     def main(args=None):
         rclpy.init(args=args)
-        node = VanDerPolOscillatorEstimator()
+        node = {model_name}Estimator()
         rclpy.spin(node)
         node.destroy_node()
         rclpy.shutdown()
@@ -860,7 +860,7 @@ def generate_model(
     from jax import random
     import config  # Import configurations
 
-    class VanDerPolOscillatorPlant(Node):
+    class {model_name}Plant(Node):
 
         def __init__(self):
             super().__init__("{model_name}_plant")
@@ -918,7 +918,7 @@ def generate_model(
 
     def main(args=None):
         rclpy.init(args=args)
-        node = VanDerPolOscillatorPlant()
+        node = {model_name}Plant()
         rclpy.spin(node)
         node.destroy_node()
         rclpy.shutdown()

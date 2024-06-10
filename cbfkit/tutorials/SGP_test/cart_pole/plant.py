@@ -40,17 +40,24 @@ def plant(I: float, M: float, m: float, G: float, l: float, **kwargs) -> Dynamic
         f = jnp.array(
             [
                 x[1],
-                m
-                * l
-                * (
-                    m * l * G * jnp.sin(x[2]) * jnp.cos(x[2])
-                    + (I + m * l**2) * x[3] ** 2 * jnp.sin(x[1])
+                (
+                    m
+                    * l
+                    * (
+                        m * l * G * jnp.sin(x[2]) * jnp.cos(x[2])
+                        + (I + m * l**2) * x[3] ** 2 * jnp.sin(x[1])
+                    )
                 )
                 / ((I + m * l**2) * (M + m) - m**2 * l**2 * jnp.cos(x[2]) ** 2),
                 x[3],
-                -m
-                * l
-                * ((m + M) * G * jnp.sin(x[2]) + m * l * x[3] ** 2 * jnp.sin(x[2]) * jnp.cos(x[2]))
+                (
+                    -m
+                    * l
+                    * (
+                        (m + M) * G * jnp.sin(x[2])
+                        + m * l * x[3] ** 2 * jnp.sin(x[2]) * jnp.cos(x[2])
+                    )
+                )
                 / ((I + m * l**2) * (M + m) - m**2 * l**2 * jnp.cos(x[2]) ** 2),
             ]
         )

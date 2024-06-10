@@ -7,7 +7,7 @@ import jax.numpy as jnp
 import config  # Import configurations
 
 
-class VanDerPolOscillatorSensor(Node):
+class cart_poleSensor(Node):
     def __init__(self):
         super().__init__("cart_pole_sensor")
         self.publisher_ = self.create_publisher(
@@ -42,7 +42,7 @@ class VanDerPolOscillatorSensor(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = VanDerPolOscillatorSensor()
+    node = cart_poleSensor()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
