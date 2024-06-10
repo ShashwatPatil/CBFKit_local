@@ -17,7 +17,7 @@ class cart_pole_Plant(Node):
         )
         self.dynamics = self.get_dynamics_by_name(config.PLANT_NAME, **config.PLANT_PARAMS)
         self.integrator = self.get_integrator_by_name(config.INTEGRATOR_NAME)
-        self.state = jnp.array([0, 0, 0, 0])  # Initial state
+        self.state = jnp.array([[0], [0], [0], [0]])  # Initial state
         self.dt = config.DT
         self.key = random.PRNGKey(0)  # Initialize random key
 

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a51b992-d896-4426-a21e-48fa714ae444" name="Changes" comment="modified the genertae model  to fix params in config.py&#10;&#10;finally got it correct&#10;this time it works? i hope so">
+    <list default="true" id="4a51b992-d896-4426-a21e-48fa714ae444" name="Changes" comment="modified the generator to take dynamic states according to the model and changes the codegen for the plant_model.py and correctly passes the initial state.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbfkit/src/cbfkit/codegen/create_new_system/generate_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbfkit/src/cbfkit/codegen/create_new_system/generate_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbfkit/tutorials/SGP_test/cart_pole/ros2/plant_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbfkit/tutorials/SGP_test/cart_pole/ros2/plant_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbfkit/tutorials/cart_pole.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbfkit/tutorials/cart_pole.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718018321311</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="modified the generator to take dynamic states according to the model and changes the codegen for the plant_model.py and correctly passes the initial state.">
+      <option name="closed" value="true" />
+      <created>1718019930155</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718019930155</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +210,7 @@
     <MESSAGE value="modified the genertae model  to fix params in config.py" />
     <MESSAGE value="modified the genertae model  to fix params in config.py&#10;&#10;finally got it correct" />
     <MESSAGE value="modified the genertae model  to fix params in config.py&#10;&#10;finally got it correct&#10;this time it works? i hope so" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified the genertae model  to fix params in config.py&#10;&#10;finally got it correct&#10;this time it works? i hope so" />
+    <MESSAGE value="modified the generator to take dynamic states according to the model and changes the codegen for the plant_model.py and correctly passes the initial state." />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the generator to take dynamic states according to the model and changes the codegen for the plant_model.py and correctly passes the initial state." />
   </component>
 </project>
