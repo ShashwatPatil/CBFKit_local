@@ -7,7 +7,7 @@ import jax.numpy as jnp
 import config
 
 
-class cart_poleController(Node):
+class cart_pole_Controller(Node):
     def __init__(self):
         super().__init__("cart_pole_controller")
         self.publisher = self.create_publisher(
@@ -60,7 +60,7 @@ class cart_poleController(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = cart_poleController()
+    node = cart_pole_Controller()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()

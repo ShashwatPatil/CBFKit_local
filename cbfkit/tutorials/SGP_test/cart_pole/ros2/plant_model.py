@@ -8,7 +8,7 @@ from jax import random
 import config  # Import configurations
 
 
-class cart_polePlant(Node):
+class cart_pole_Plant(Node):
     def __init__(self):
         super().__init__("cart_pole_plant")
         self.publisher_ = self.create_publisher(Float32MultiArray, "state", config.QUEUE_SIZE)
@@ -68,7 +68,7 @@ class cart_polePlant(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = cart_polePlant()
+    node = cart_pole_Plant()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()

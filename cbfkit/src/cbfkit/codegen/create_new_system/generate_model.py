@@ -642,7 +642,7 @@ def generate_model(
     import jax.numpy as jnp
     import config
 
-    class {model_name}Controller(Node):
+    class {model_name}_Controller(Node):
 
         def __init__(self):
             super().__init__("{model_name}_controller")
@@ -690,7 +690,7 @@ def generate_model(
 
     def main(args=None):
         rclpy.init(args=args)
-        node = {model_name}Controller()
+        node = {model_name}_Controller()
         rclpy.spin(node)
         node.destroy_node()
         rclpy.shutdown()
@@ -722,7 +722,7 @@ def generate_model(
     import jax.numpy as jnp
     import config  # Import configurations
 
-    class {model_name}Sensor(Node):
+    class {model_name}_Sensor(Node):
 
         def __init__(self):
             super().__init__("{model_name}_sensor")
@@ -753,7 +753,7 @@ def generate_model(
 
     def main(args=None):
         rclpy.init(args=args)
-        node = {model_name}Sensor()
+        node = {model_name}_Sensor()
         rclpy.spin(node)
         node.destroy_node()
         rclpy.shutdown()
@@ -784,7 +784,7 @@ def generate_model(
     import jax.numpy as jnp
     import config
 
-    class {model_name}Estimator(Node):
+    class {model_name}_Estimator(Node):
 
         def __init__(self):
             super().__init__("{model_name}_estimator")
@@ -829,7 +829,7 @@ def generate_model(
 
     def main(args=None):
         rclpy.init(args=args)
-        node = {model_name}Estimator()
+        node = {model_name}_Estimator()
         rclpy.spin(node)
         node.destroy_node()
         rclpy.shutdown()
@@ -860,7 +860,7 @@ def generate_model(
     from jax import random
     import config  # Import configurations
 
-    class {model_name}Plant(Node):
+    class {model_name}_Plant(Node):
 
         def __init__(self):
             super().__init__("{model_name}_plant")
@@ -918,7 +918,7 @@ def generate_model(
 
     def main(args=None):
         rclpy.init(args=args)
-        node = {model_name}Plant()
+        node = {model_name}_Plant()
         rclpy.spin(node)
         node.destroy_node()
         rclpy.shutdown()
