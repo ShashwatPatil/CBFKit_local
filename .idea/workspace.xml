@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a51b992-d896-4426-a21e-48fa714ae444" name="Changes" comment="fully made the cartpole system">
+    <list default="true" id="4a51b992-d896-4426-a21e-48fa714ae444" name="Changes" comment="finally made full model">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbfkit/src/cbfkit/codegen/create_new_system/generate_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbfkit/src/cbfkit/codegen/create_new_system/generate_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +60,7 @@
     "Python.cart_pole.executor": "Run",
     "Python.controller.executor": "Run",
     "Python.estimator.executor": "Run",
+    "Python.generate_model.executor": "Run",
     "Python.main.executor": "Run",
     "Python.path.executor": "Run",
     "Python.plant.executor": "Run",
@@ -119,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718015189705</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finally made full model">
+      <option name="closed" value="true" />
+      <created>1718015297894</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718015297894</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +150,7 @@
     </ignored-roots>
     <MESSAGE value="commit" />
     <MESSAGE value="fully made the cartpole system" />
-    <option name="LAST_COMMIT_MESSAGE" value="fully made the cartpole system" />
+    <MESSAGE value="finally made full model" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally made full model" />
   </component>
 </project>
