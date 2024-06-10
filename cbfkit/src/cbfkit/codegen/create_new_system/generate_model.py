@@ -99,6 +99,7 @@ def generate_model(
     directory: str,
     model_name: str,
     drift_dynamics: Union[str, List[str]],
+    initial_state: Union[str, List[str]],
     control_matrix: Union[str, List[str]],
     barrier_funcs: Optional[Union[str, List, None]] = None,
     lyapunov_funcs: Optional[Union[str, List, None]] = None,
@@ -874,7 +875,7 @@ def generate_model(
             self.create_subscription(Float32MultiArray, "control_command", self.listener_callback, config.QUEUE_SIZE)
             self.dynamics = self.get_dynamics_by_name(config.PLANT_NAME, **config.PLANT_PARAMS)
             self.integrator = self.get_integrator_by_name(config.INTEGRATOR_NAME)
-            self.state = jnp.array([1.5, 0.25])  # Initial state
+            self.state = jnp.array({initial_state})  # Initial state
             self.dt = config.DT
             self.key = random.PRNGKey(0)  # Initialize random key
 

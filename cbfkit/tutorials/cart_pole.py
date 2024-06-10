@@ -25,7 +25,7 @@ control_matrix = "[[0], (I + m * l ** 2) / ((I + m * l ** 2) * (M + m) - m ** 2 
 
 target_directory = "./SGP_test"
 madel_name = "cart_pole"
-
+initial_state = [0, 0, 0, 0]
 params = {"dynamics": {"I : float": I,"M : float": M,"m : float": m,"G : float": G,"l : float": l,}}
 
 nominal_control_law = "((( x[3] / l) * cos( x[2] ) * k_4 + k_3 * (x[1] + k_1 * x[3] * cos(x[2]) + k_2 * sin(x[2])) + k_1 * sin(x[2]) * ((G / l) * cos(x[2]) - x[3] ** 2) + k_2 * x[3] * cos(x[2]) ) ) / ((k_1 / l) * cos(x[2]) ** 2 - 1)"
@@ -40,6 +40,7 @@ generate_model.generate_model(
     directory=target_directory,
     model_name=madel_name,
     drift_dynamics=drift_dynamics,
+    initial_state=initial_state,
     control_matrix=control_matrix,
     nominal_controller=nominal_control_law,
     barrier_funcs=barrier_funcs,

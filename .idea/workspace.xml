@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a51b992-d896-4426-a21e-48fa714ae444" name="Changes" comment="modified the genertae model  to fix params in config.py&#10;&#10;finally got it correct">
+    <list default="true" id="4a51b992-d896-4426-a21e-48fa714ae444" name="Changes" comment="modified the genertae model  to fix params in config.py&#10;&#10;finally got it correct&#10;this time it works? i hope so">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbfkit/src/cbfkit/codegen/create_new_system/generate_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbfkit/src/cbfkit/codegen/create_new_system/generate_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbfkit/tutorials/SGP_test/cart_pole/ros2/plant_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbfkit/tutorials/SGP_test/cart_pole/ros2/plant_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbfkit/tutorials/cart_pole.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbfkit/tutorials/cart_pole.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718017309085</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modified the genertae model  to fix params in config.py&#10;&#10;finally got it correct&#10;this time it works? i hope so">
+      <option name="closed" value="true" />
+      <created>1718018321311</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718018321311</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +203,7 @@
     <MESSAGE value="finally made full model" />
     <MESSAGE value="modified the genertae model  to fix params in config.py" />
     <MESSAGE value="modified the genertae model  to fix params in config.py&#10;&#10;finally got it correct" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified the genertae model  to fix params in config.py&#10;&#10;finally got it correct" />
+    <MESSAGE value="modified the genertae model  to fix params in config.py&#10;&#10;finally got it correct&#10;this time it works? i hope so" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the genertae model  to fix params in config.py&#10;&#10;finally got it correct&#10;this time it works? i hope so" />
   </component>
 </project>
